@@ -83,5 +83,42 @@ int main() {   ? Case sensitive language
     scanf("%f", &radius);
     float area1 = 3.14 * radius * radius;
     printf("Area of the circle is %f \n", area1);
+
+//Write a program to calculate perimeter of rectangle. Take sides, a and b from the user.
+
+    int length;
+    printf("Enter length : ");
+    scanf("%d", &length);
+    int breadth;
+    printf("Enter breadth : ");
+    scanf("%d", &breadth);
+    int perimeter = 2 * (length + breadth);
+    printf("Perimeter is %d", perimeter);
+
+//Take a number(n) from user & output its cube
+
+    int n;
+    printf("Enter number : \n");
+    scanf("%d", &n);
+    int cube = n*n*n;
+    printf("Cube of the given number n is : %d", cube);
+
+//Take marks of 5 subjects and print total and average
+
+    int m1, m2, m3, m4, m5;
+    printf("Enter marks of subject 1 : \n");
+    scanf("%d", &m1);
+    printf("Enter marks of subject 2 : \n");
+    scanf("%d", &m2);
+    printf("Enter marks of subject 3 : \n");
+    scanf("%d", &m3);
+    printf("Enter marks of subject 4 : \n");
+    scanf("%d", &m4);
+    printf("Enter marks of subject 5 : \n");
+    scanf("%d", &m5);
+    
+    int avg = (m1+ m2 + m3 + m4 + m5) / 5;
+    printf("Avg of all subjects are : %d \n", avg);
     return 0;
+
 }
