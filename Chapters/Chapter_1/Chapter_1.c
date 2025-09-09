@@ -68,7 +68,7 @@ int main() {   ? Case sensitive language
     sum = p + q;
     printf("Sum = %d \n", sum);
 
-//Write a program to calculate the area of a square(Side is given)
+//(Q) Write a program to calculate the area of a square(Side is given)
 
     int side;
     printf("Enter side of square : ");
@@ -76,7 +76,7 @@ int main() {   ? Case sensitive language
     int area = side * side;
     printf("Area of the square is : %d \n", area);
 
-//Write a program to calculate the area of a circle(Radius is given)
+//(Q) Write a program to calculate the area of a circle(Radius is given)
 
     float radius;
     printf("Enter radius : ");
@@ -84,7 +84,7 @@ int main() {   ? Case sensitive language
     float area1 = 3.14 * radius * radius;
     printf("Area of the circle is %f \n", area1);
 
-//Write a program to calculate perimeter of rectangle. Take sides, a and b from the user.
+//(Q) Write a program to calculate perimeter of rectangle. Take sides, a and b from the user.
 
     int length;
     printf("Enter length : ");
@@ -95,7 +95,7 @@ int main() {   ? Case sensitive language
     int perimeter = 2 * (length + breadth);
     printf("Perimeter is %d", perimeter);
 
-//Take a number(n) from user & output its cube
+//(Q) Take a number(n) from user & output its cube
 
     int n;
     printf("Enter number : \n");
@@ -103,7 +103,7 @@ int main() {   ? Case sensitive language
     int cube = n*n*n;
     printf("Cube of the given number n is : %d", cube);
 
-//Take marks of 5 subjects and print total and average
+//(Q) Take marks of 5 subjects and print total and average
 
     int m1, m2, m3, m4, m5;
     printf("Enter marks of subject 1 : \n");
