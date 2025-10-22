@@ -139,4 +139,3 @@ void main(){
         printf("Not a valid character \n");
     }
 }
-    
